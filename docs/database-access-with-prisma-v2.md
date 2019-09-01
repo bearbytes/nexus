@@ -101,8 +101,8 @@ model Todo {
 
 ```ts
 import { nexusPrismaPlugin } from "@generated/nexus-prisma";
-import { Photon } from "@generated/photon";
-import { objectType, makeSchema, idArg } from "@prisma/nexus";
+import Photon from "@generated/photon";
+import { objectType, makeSchema, idArg } from "nexus";
 import { GraphQLServer } from "graphql-yoga";
 
 // Expose the full "Query" building block
